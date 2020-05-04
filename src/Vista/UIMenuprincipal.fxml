@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vista.ControladoraPrincipal">
+   <children>
+      <Button fx:id="Donantes" layoutX="191.0" layoutY="120.0" mnemonicParsing="false" onAction="#abrirDonante" prefHeight="53.0" prefWidth="180.0" text="Donantes">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="Donaciones" layoutX="191.0" layoutY="255.0" mnemonicParsing="false" onAction="#abrirDonacion" prefHeight="53.0" prefWidth="180.0" text="Donaciones">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="Formulario" layoutX="191.0" layoutY="187.0" mnemonicParsing="false" onAction="#abrirFormulario" prefHeight="53.0" prefWidth="180.0" text="Formulario">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Label layoutX="93.0" layoutY="38.0" prefHeight="53.0" prefWidth="376.0" text=" Aplicación de Donaciones">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="191.0" layoutY="325.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="180.0" text="INFORMES">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
