@@ -21,7 +21,7 @@ public class Main  extends Application{
 	    @Override
 	    public void start(Stage stagePrincipal) throws Exception {
 	        Main.stagePrincipal = stagePrincipal;
-	        mostrarVentanaPrincipal();
+	        mostrarUIPrincipal();
 
 	    }
 
@@ -30,9 +30,10 @@ public class Main  extends Application{
 	        launch(args);
 	    }
 
-	    public void mostrarVentanaPrincipal() {
+	    public void mostrarUIPrincipal() {
 	        try {
-	            FXMLLoader loader = new FXMLLoader(Main.class.getResource("../Vista/VentanaPrincipal.fxml"));
+	        	System.out.println("hola");
+	            FXMLLoader loader = new FXMLLoader(Main.class.getResource("../Vista/UIMenuPrincipal.fxml"));
 	            rootPane=(AnchorPane) loader.load();
 	            Scene scene = new Scene(rootPane);
 	            stagePrincipal.setTitle("Ventana Principal");

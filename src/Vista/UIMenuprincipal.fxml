@@ -7,15 +7,15 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vista.ControladoraPrincipal">
    <children>
-      <Button fx:id="Donantes" layoutX="191.0" layoutY="120.0" mnemonicParsing="false" onAction="#abrirDonante" prefHeight="53.0" prefWidth="180.0" text="Donantes">
+      <Button fx:id="adminDonantes" layoutX="191.0" layoutY="120.0" mnemonicParsing="false" onAction="#abrirVentanaDonante" prefHeight="53.0" prefWidth="180.0" text="Donantes">
          <font>
             <Font size="19.0" />
          </font></Button>
-      <Button fx:id="Donaciones" layoutX="191.0" layoutY="255.0" mnemonicParsing="false" onAction="#abrirDonacion" prefHeight="53.0" prefWidth="180.0" text="Donaciones">
+      <Button fx:id="adminDonaciones" layoutX="191.0" layoutY="255.0" mnemonicParsing="false" onAction="#abrirVentanaDonacion" prefHeight="53.0" prefWidth="180.0" text="Donaciones">
          <font>
             <Font size="19.0" />
          </font></Button>
-      <Button fx:id="Formulario" layoutX="191.0" layoutY="187.0" mnemonicParsing="false" onAction="#abrirFormulario" prefHeight="53.0" prefWidth="180.0" text="Formulario">
+      <Button fx:id="adminInformesyestadisticas" layoutX="191.0" layoutY="187.0" mnemonicParsing="false" onAction="#abrirVentanaInformes" prefHeight="53.0" prefWidth="180.0" text="Formulario">
          <font>
             <Font size="19.0" />
          </font></Button>
@@ -24,7 +24,7 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <Button layoutX="191.0" layoutY="325.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="180.0" text="INFORMES">
+      <Button layoutX="191.0" layoutY="325.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="180.0" text="Informes">
          <font>
             <Font size="19.0" />
          </font>
